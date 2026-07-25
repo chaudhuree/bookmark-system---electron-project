@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
 const windowStateKeeper = require("electron-window-state");
+const readItem = require("./readItem");
 
 let mainWindow;
 
@@ -49,11 +50,10 @@ app.whenReady().then(() => {
 });
 
 // listen fro data from the ui
-ipcMain.on('new-item', (e, itemUrl) => {
+ipcMain.on('new-item', async (e, itemUrl) => {
     console.log(itemUrl)
-    setTimeout(() => {
-        e.sender.send('new-item-success', itemUrl)
-    }, 2000)
+    let item = await readItem(itemUrl)
+    e.sender.send('new-item-success', item)
 })
 
 
@@ -63,5 +63,6 @@ app.on("window-all-closed", () => {
     if (process.platform !== "darwin") {
         app.quit();
     }
+
 });
 
