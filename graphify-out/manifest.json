@@ -1,0 +1,37 @@
+{
+  ".vscode/settings.json": {
+    "mtime": 1784965210.4782865,
+    "ast_hash": "b848f79d0351e060ebcf88c13fc8d001",
+    "semantic_hash": "b848f79d0351e060ebcf88c13fc8d001"
+  },
+  "main.js": {
+    "mtime": 1785047156.091449,
+    "ast_hash": "e789690caa73e598f51d69dc80d7031c",
+    "semantic_hash": "e789690caa73e598f51d69dc80d7031c"
+  },
+  "package.json": {
+    "mtime": 1784965870.28936,
+    "ast_hash": "c96d05ab2a6fd0c43e4b23be2e078a99",
+    "semantic_hash": "c96d05ab2a6fd0c43e4b23be2e078a99"
+  },
+  "readItem.js": {
+    "mtime": 1785045635.9635186,
+    "ast_hash": "9e2905d2737778fc550ce534aabd66a8",
+    "semantic_hash": "9e2905d2737778fc550ce534aabd66a8"
+  },
+  "renderer/app.js": {
+    "mtime": 1785049000.0043972,
+    "ast_hash": "f6b2db6f119e0b042a7e1dbffbae660c",
+    "semantic_hash": "f6b2db6f119e0b042a7e1dbffbae660c"
+  },
+  "renderer/items.js": {
+    "mtime": 1785048981.6880934,
+    "ast_hash": "1b25634512a8d2ed384b3ddb4dc85d37",
+    "semantic_hash": "1b25634512a8d2ed384b3ddb4dc85d37"
+  },
+  "renderer/main.html": {
+    "mtime": 1785047228.2560136,
+    "ast_hash": "a1053b1ea7d1ad5f7197bdb568c93909",
+    "semantic_hash": "a1053b1ea7d1ad5f7197bdb568c93909"
+  }
+}

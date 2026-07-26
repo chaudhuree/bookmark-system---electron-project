@@ -12,7 +12,10 @@ module.exports = async (url) => {
     });
 
     try {
-
+        // format url
+        if (!url.includes('https')) {
+            url = `https://${url}`
+        }
         await win.loadURL(url);
 
         await new Promise(resolve =>

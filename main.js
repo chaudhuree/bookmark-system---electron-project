@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain } = require("electron");
+const { app, BrowserWindow, ipcMain, Menu } = require("electron");
 const path = require("path");
 const windowStateKeeper = require("electron-window-state");
 const readItem = require("./readItem");
@@ -6,6 +6,9 @@ const readItem = require("./readItem");
 let mainWindow;
 
 function createWindow() {
+    // Hide default menu
+    Menu.setApplicationMenu(null);
+
     const winState = windowStateKeeper({
         defaultWidth: 500,
         defaultHeight: 650,

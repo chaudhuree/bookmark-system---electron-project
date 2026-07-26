@@ -1,0 +1,892 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "main.js",
+      "file_type": "code",
+      "source_file": "main.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "main",
+      "community": 1,
+      "norm_label": "main.js"
+    },
+    {
+      "label": "{ app, BrowserWindow, ipcMain, Menu }",
+      "file_type": "code",
+      "source_file": "main.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "main_app_browserwindow_ipcmain_menu",
+      "community": 1,
+      "norm_label": "{ app, browserwindow, ipcmain, menu }"
+    },
+    {
+      "label": "path",
+      "file_type": "code",
+      "source_file": "main.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "main_path",
+      "community": 1,
+      "norm_label": "path"
+    },
+    {
+      "label": "windowStateKeeper",
+      "file_type": "code",
+      "source_file": "main.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "main_windowstatekeeper",
+      "community": 1,
+      "norm_label": "windowstatekeeper"
+    },
+    {
+      "label": "readItem",
+      "file_type": "code",
+      "source_file": "main.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "main_readitem",
+      "community": 1,
+      "norm_label": "readitem"
+    },
+    {
+      "label": "createWindow()",
+      "file_type": "code",
+      "source_file": "main.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "main_createwindow",
+      "community": 1,
+      "norm_label": "createwindow()"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 2,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 2,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 2,
+      "norm_label": "version"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_main",
+      "community": 2,
+      "norm_label": "main"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 5,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 5,
+      "norm_label": "start"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 5,
+      "norm_label": "dev"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_keywords",
+      "community": 2,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "package_author",
+      "community": 2,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_license",
+      "community": 2,
+      "norm_label": "license"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_description",
+      "community": 2,
+      "norm_label": "description"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 3,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "electron",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_dependencies_electron",
+      "community": 3,
+      "norm_label": "electron"
+    },
+    {
+      "label": "electron",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "electron",
+      "community": 3,
+      "norm_label": "electron"
+    },
+    {
+      "label": "electron-window-state",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_dependencies_electron_window_state",
+      "community": 3,
+      "norm_label": "electron-window-state"
+    },
+    {
+      "label": "electron-window-state",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "electron_window_state",
+      "community": 3,
+      "norm_label": "electron-window-state"
+    },
+    {
+      "label": "nodemon",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_dependencies_nodemon",
+      "community": 3,
+      "norm_label": "nodemon"
+    },
+    {
+      "label": "nodemon",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "nodemon",
+      "community": 3,
+      "norm_label": "nodemon"
+    },
+    {
+      "label": "readItem.js",
+      "file_type": "code",
+      "source_file": "readItem.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readitem",
+      "community": 1,
+      "norm_label": "readitem.js"
+    },
+    {
+      "label": "{ BrowserWindow }",
+      "file_type": "code",
+      "source_file": "readItem.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readitem_browserwindow",
+      "community": 1,
+      "norm_label": "{ browserwindow }"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "renderer_app",
+      "community": 0,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "{ ipcRenderer }",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "renderer_app_ipcrenderer",
+      "community": 0,
+      "norm_label": "{ ipcrenderer }"
+    },
+    {
+      "label": "items",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "renderer_app_items",
+      "community": 0,
+      "norm_label": "items"
+    },
+    {
+      "label": "showModal",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "renderer_app_showmodal",
+      "community": 0,
+      "norm_label": "showmodal"
+    },
+    {
+      "label": "closeModal",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "renderer_app_closemodal",
+      "community": 0,
+      "norm_label": "closemodal"
+    },
+    {
+      "label": "modal",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "renderer_app_modal",
+      "community": 0,
+      "norm_label": "modal"
+    },
+    {
+      "label": "addItem",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "renderer_app_additem",
+      "community": 0,
+      "norm_label": "additem"
+    },
+    {
+      "label": "itemUrl",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "renderer_app_itemurl",
+      "community": 0,
+      "norm_label": "itemurl"
+    },
+    {
+      "label": "search",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "renderer_app_search",
+      "community": 0,
+      "norm_label": "search"
+    },
+    {
+      "label": "toggleModalButtons()",
+      "file_type": "code",
+      "source_file": "renderer/app.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "renderer_app_togglemodalbuttons",
+      "community": 0,
+      "norm_label": "togglemodalbuttons()"
+    },
+    {
+      "label": "items.js",
+      "file_type": "code",
+      "source_file": "renderer/items.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "renderer_items",
+      "community": 4,
+      "norm_label": "items.js"
+    },
+    {
+      "label": "items",
+      "file_type": "code",
+      "source_file": "renderer/items.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "renderer_items_items",
+      "community": 4,
+      "norm_label": "items"
+    },
+    {
+      "label": "saveItems()",
+      "file_type": "code",
+      "source_file": "renderer/items.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "renderer_items_saveitems",
+      "community": 4,
+      "norm_label": "saveitems()"
+    },
+    {
+      "label": "checkNoItems()",
+      "file_type": "code",
+      "source_file": "renderer/items.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "renderer_items_checknoitems",
+      "community": 4,
+      "norm_label": "checknoitems()"
+    },
+    {
+      "label": "addItem()",
+      "file_type": "code",
+      "source_file": "renderer/items.js",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "renderer_items_additem",
+      "community": 4,
+      "norm_label": "additem()"
+    },
+    {
+      "label": "deleteItem()",
+      "file_type": "code",
+      "source_file": "renderer/items.js",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "renderer_items_deleteitem",
+      "community": 4,
+      "norm_label": "deleteitem()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "main",
+      "target": "main_app_browserwindow_ipcmain_menu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "main",
+      "target": "main_createwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "main",
+      "target": "main_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "main",
+      "target": "main_readitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "main",
+      "target": "main_windowstatekeeper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "main",
+      "target": "readitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "main.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "main_createwindow",
+      "target": "main_windowstatekeeper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_author",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_keywords",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_electron",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_electron_window_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nodemon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_electron",
+      "target": "electron",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_electron_window_state",
+      "target": "electron_window_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_nodemon",
+      "target": "nodemon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "readItem.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readitem",
+      "target": "readitem_browserwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_additem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_closemodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_ipcrenderer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_itemurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_modal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_search",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_showmodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_app_togglemodalbuttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/app.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "renderer_app",
+      "target": "renderer_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "renderer_items",
+      "target": "renderer_items_additem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "renderer_items",
+      "target": "renderer_items_checknoitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "renderer_items",
+      "target": "renderer_items_deleteitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "renderer_items",
+      "target": "renderer_items_items",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "renderer_items",
+      "target": "renderer_items_saveitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "renderer_items_additem",
+      "target": "renderer_items_saveitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "renderer_items_deleteitem",
+      "target": "renderer_items_saveitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "renderer_items_additem",
+      "target": "renderer_items_checknoitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "renderer_items_deleteitem",
+      "target": "renderer_items_checknoitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "renderer/items.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "renderer_items_additem",
+      "target": "renderer_items_deleteitem",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "6eb0731df2a9d5bfc3802d13fc9ccf0c40a7767c"
+}
